@@ -1,8 +1,8 @@
 import sys
 
 for line in sys.stdin:
-    line =line.strip() #xoá khoảng trắng ở đầu và cuối dòng
-    parts = line.split(",")# tách dòng dữ liệu theo dấu ","
+    line =line.strip()
+    parts = line.split(",")
 
     if len(parts) == 2:
         customer_id = parts[0]
